@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RomanNumberCalculator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>RomanNumberCalculatorDebug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>42BEDEE81EBDCBD600180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42BEDEFE1EBDCBEF00180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42BEDF411EBDCD9C00180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42BEDF4F1EBDCDA600180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42BEDF5D1EBDCDB300180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42BEDF6B1EBDCDC300180F97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
