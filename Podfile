@@ -7,17 +7,19 @@ target 'RomanNumberCalculator' do
 
   # Pods for RomanNumberCalculator
   pod 'Firebase/Core'
-  
+  pod 'Firebase/Database'
   target 'RomanNumberCalculatorTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
   target 'RomanNumberCalculatorUITests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
 end
@@ -28,16 +30,19 @@ target 'RomanNumberCalculatorDebug' do
 
   # Pods for RomanNumberCalculatorDebug
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
   target 'RomanNumberCalculatorDebugTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
   target 'RomanNumberCalculatorDebugUITests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
 end
