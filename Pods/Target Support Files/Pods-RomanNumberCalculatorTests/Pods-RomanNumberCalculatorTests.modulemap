@@ -1,0 +1,6 @@
+framework module Pods_RomanNumberCalculatorTests {
+  umbrella header "Pods-RomanNumberCalculatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
