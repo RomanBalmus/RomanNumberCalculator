@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D11E7E3B292692CD699619A055BF96B3109E4C68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85ED07D3E6212B76EA64BB9DA0665C7502F4367F" : 9223372036854775807,
+    "D11E7E3B292692CD699619A055BF96B3109E4C68" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D7B871F6-9E5B-458A-8C23-D77FA342CE8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85ED07D3E6212B76EA64BB9DA0665C7502F4367F" : "..\/..\/Downloads\/iosProjectsAndLibs\/ios-short-continuous-integration-master",
+    "D11E7E3B292692CD699619A055BF96B3109E4C68" : "RomanNumberCalculator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RomanNumberCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RomanNumberCalculator.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RomanBalmus\/UdacityProject1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85ED07D3E6212B76EA64BB9DA0665C7502F4367F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RomanBalmus\/RomanNumberCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D11E7E3B292692CD699619A055BF96B3109E4C68"
+    }
+  ]
+}

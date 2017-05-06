@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BAZ-3h-jBI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="jHB-fh-2vx">
             <objects>
-                <viewController storyboardIdentifier="LoginPageID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tv5-u0-qzj" customClass="LoginViewController" customModule="RomanNumeralCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginPageID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tv5-u0-qzj" customClass="LoginViewController" customModule="RomanNumberCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G5E-j5-Cyo"/>
                         <viewControllerLayoutGuide type="bottom" id="OQ3-XG-Qiq"/>
@@ -70,7 +70,7 @@
         <!--View Controller-->
         <scene sceneID="bsY-MG-JEX">
             <objects>
-                <viewController id="BAZ-3h-jBI" customClass="ViewController" customModule="RomanNumeralCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BAZ-3h-jBI" customClass="ViewController" customModule="RomanNumberCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x2p-FT-vSF"/>
                         <viewControllerLayoutGuide type="bottom" id="SVt-0Q-32j"/>
