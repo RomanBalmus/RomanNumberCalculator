@@ -59,12 +59,8 @@
 		42BEDF9E1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
 		42BEDF9F1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
 		42BEDFA01EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
-		42BEDFA31EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
-		42BEDFA41EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
-		42BEDFA51EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
-		42BEDFA61EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
-		42BEDFA71EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
-		42BEDFA81EBDCE7B00180F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */; };
+		42BEDFAA1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */; };
+		42BEDFAB1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */; };
 		7C6E61F71C2C83E001F4B8C8 /* Pods_RomanNumberCalculatorDebugTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C14570D45478DDEDD04AD /* Pods_RomanNumberCalculatorDebugTests.framework */; };
 		800C9C6768E21BCD90DB8A97 /* Pods_RomanNumberCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164902DD86CEA684E03D64B /* Pods_RomanNumberCalculatorUITests.framework */; };
 		9E1E56ED9EC4C723A2129904 /* Pods_RomanNumberCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */; };
@@ -141,7 +137,7 @@
 		42BEDF7A1EBDCDF900180F97 /* FireDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireDB.swift; sourceTree = "<group>"; };
 		42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		42BEDFA11EBDCE7B00180F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476062AF95622ABC2CB9BEB8 /* Pods-RomanNumberCalculatorDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumberCalculatorDebug.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumberCalculatorDebug/Pods-RomanNumberCalculatorDebug.release.xcconfig"; sourceTree = "<group>"; };
 		5466F790C5361E87A8595FDA /* Pods_RomanNumberCalculatorDebugUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorDebugUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,8 +244,8 @@
 				42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */,
 				42BEDEF01EBDCBD600180F97 /* Main.storyboard */,
 				42BEDEF31EBDCBD600180F97 /* Assets.xcassets */,
-				42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */,
 				42BEDEF81EBDCBD700180F97 /* Info.plist */,
+				42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */,
 			);
 			path = RomanNumberCalculator;
 			sourceTree = "<group>";
@@ -550,8 +546,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA31EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 				42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */,
+				42BEDFAA1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
 				42BEDEF41EBDCBD600180F97 /* Assets.xcassets in Resources */,
 				42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */,
 			);
@@ -561,8 +557,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA41EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 				42BEDF3B1EBDCD2D00180F97 /* GoogleService-Info.plist in Resources */,
+				42BEDFAB1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
 				42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */,
 				42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */,
 			);
@@ -572,7 +568,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA51EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +575,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA61EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +582,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA71EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +589,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDFA81EBDCE7B00180F97 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -998,15 +990,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		42BEDFA21EBDCE7B00180F97 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42BEDFA11EBDCE7B00180F97 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = "../../../../Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculator";
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1296,6 +1279,7 @@
 				42BEDEFD1EBDCBD700180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BEDF071EBDCBEF00180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebug" */ = {
 			isa = XCConfigurationList;
@@ -1313,6 +1297,7 @@
 				42BEDF4B1EBDCD9C00180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BEDF571EBDCDA600180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -1321,6 +1306,7 @@
 				42BEDF591EBDCDA600180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BEDF651EBDCDB400180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugUITests" */ = {
 			isa = XCConfigurationList;
@@ -1329,6 +1315,7 @@
 				42BEDF671EBDCDB400180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BEDF731EBDCDC300180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugTests" */ = {
 			isa = XCConfigurationList;
@@ -1337,6 +1324,7 @@
 				42BEDF751EBDCDC300180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
