@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42BEDEFE1EBDCBEF00180F97"
-               BuildableName = "RomanNumberCalculatorDebug.app"
-               BlueprintName = "RomanNumberCalculatorDebug"
+               BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
+               BuildableName = "RomanNumberCalculator.app"
+               BlueprintName = "RomanNumberCalculator"
                ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42BEDF5D1EBDCDB300180F97"
-               BuildableName = "RomanNumberCalculatorDebugUITests.xctest"
-               BlueprintName = "RomanNumberCalculatorDebugUITests"
-               ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42BEDF6B1EBDCDC300180F97"
-               BuildableName = "RomanNumberCalculatorDebugTests.xctest"
-               BlueprintName = "RomanNumberCalculatorDebugTests"
-               ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEFE1EBDCBEF00180F97"
-            BuildableName = "RomanNumberCalculatorDebug.app"
-            BlueprintName = "RomanNumberCalculatorDebug"
+            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
+            BuildableName = "RomanNumberCalculator.app"
+            BlueprintName = "RomanNumberCalculator"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEFE1EBDCBEF00180F97"
-            BuildableName = "RomanNumberCalculatorDebug.app"
-            BlueprintName = "RomanNumberCalculatorDebug"
+            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
+            BuildableName = "RomanNumberCalculator.app"
+            BlueprintName = "RomanNumberCalculator"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEFE1EBDCBEF00180F97"
-            BuildableName = "RomanNumberCalculatorDebug.app"
-            BlueprintName = "RomanNumberCalculatorDebug"
+            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
+            BuildableName = "RomanNumberCalculator.app"
+            BlueprintName = "RomanNumberCalculator"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -20,6 +20,7 @@
 		421612481EC0C1E900EC1F5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481DF3AD2D8EF817156EFF2 /* AVFoundation.framework */; };
 		421612491EC0C1E900EC1F5C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869E2205C204F2CE61EA10C9 /* CoreMedia.framework */; };
 		4216124A1EC0C1E900EC1F5C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
+		4216124B1EC0C57D00EC1F5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */; };
 		42BEDEED1EBDCBD600180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDEEF1EBDCBD600180F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEE1EBDCBD600180F97 /* ViewController.swift */; };
 		42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
@@ -28,7 +29,6 @@
 		42BEDF011EBDCBEF00180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
 		42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
-		42BEDF3B1EBDCD2D00180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */; };
 		42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */; };
 		42BEDF451EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF441EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift */; };
 		42BEDF531EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF521EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift */; };
@@ -604,6 +604,7 @@
 			files = (
 				42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */,
 				42BEDFAA1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
+				4216124B1EC0C57D00EC1F5C /* GoogleService-Info.plist in Resources */,
 				42BEDEF41EBDCBD600180F97 /* Assets.xcassets in Resources */,
 				42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */,
 			);
@@ -613,7 +614,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDF3B1EBDCD2D00180F97 /* GoogleService-Info.plist in Resources */,
 				42BEDFAB1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
 				42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */,
 				42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */,
