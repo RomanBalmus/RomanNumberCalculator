@@ -16,8 +16,6 @@
 		42BEDF011EBDCBEF00180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
 		42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
-		42BEDF341EBDCC8D00180F97 /* Dev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF331EBDCC8D00180F97 /* Dev.swift */; };
-		42BEDF371EBDCC9E00180F97 /* Rel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF361EBDCC9E00180F97 /* Rel.swift */; };
 		42BEDF3B1EBDCD2D00180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */; };
 		42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */; };
 		42BEDF451EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF441EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift */; };
@@ -128,8 +126,6 @@
 		42BEDEF81EBDCBD700180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42BEDF0A1EBDCBEF00180F97 /* RomanNumberCalculatorDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumberCalculatorDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDF0B1EBDCBEF00180F97 /* RomanNumberCalculatorDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumberCalculatorDebug-Info.plist"; path = "/Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculatorDebug-Info.plist"; sourceTree = "<absolute>"; };
-		42BEDF331EBDCC8D00180F97 /* Dev.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dev.swift; sourceTree = "<group>"; };
-		42BEDF361EBDCC9E00180F97 /* Rel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rel.swift; sourceTree = "<group>"; };
 		42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Develop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BEDF421EBDCD9C00180F97 /* RomanNumberCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumberCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +152,7 @@
 		66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		675301E1A2FFF6CD00D403F3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		869E2205C204F2CE61EA10C9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		8FC3C53AABF0FF03A71A63BF /* Pods-RomanNumberCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumberCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumberCalculator/Pods-RomanNumberCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		9313C3E0176A6FD9F800200F /* Pods-RomanNumberCalculatorDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumberCalculatorDebug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumberCalculatorDebug/Pods-RomanNumberCalculatorDebug.debug.xcconfig"; sourceTree = "<group>"; };
@@ -282,7 +278,6 @@
 		42BEDF321EBDCC7E00180F97 /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				42BEDF331EBDCC8D00180F97 /* Dev.swift */,
 				42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */,
 			);
 			name = Dev;
@@ -292,7 +287,6 @@
 			isa = PBXGroup;
 			children = (
 				42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */,
-				42BEDF361EBDCC9E00180F97 /* Rel.swift */,
 			);
 			name = Rel;
 			sourceTree = "<group>";
@@ -916,7 +910,6 @@
 				42BEDF7B1EBDCDF900180F97 /* AppConfig.swift in Sources */,
 				42BEDF811EBDCDF900180F97 /* FireAuth.swift in Sources */,
 				42BEDEED1EBDCBD600180F97 /* AppDelegate.swift in Sources */,
-				42BEDF371EBDCC9E00180F97 /* Rel.swift in Sources */,
 				42BEDF941EBDCE0400180F97 /* RomanNumeral.swift in Sources */,
 				42BEDF871EBDCDF900180F97 /* Constants.swift in Sources */,
 			);
@@ -932,7 +925,6 @@
 				42BEDF7C1EBDCDF900180F97 /* AppConfig.swift in Sources */,
 				42BEDF821EBDCDF900180F97 /* FireAuth.swift in Sources */,
 				42BEDF011EBDCBEF00180F97 /* AppDelegate.swift in Sources */,
-				42BEDF341EBDCC8D00180F97 /* Dev.swift in Sources */,
 				42BEDF951EBDCE0400180F97 /* RomanNumeral.swift in Sources */,
 				42BEDF881EBDCDF900180F97 /* Constants.swift in Sources */,
 			);
