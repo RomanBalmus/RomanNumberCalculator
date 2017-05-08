@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2BBAACEDA27D84EE9A3A856E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
+		4216123F1EC0C1D700EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
+		421612401EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
+		421612411EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
+		421612421EC0C1E900EC1F5C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */; };
+		421612431EC0C1E900EC1F5C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA18FC06439D44FDCA92CAD /* AssetsLibrary.framework */; };
+		421612441EC0C1E900EC1F5C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675301E1A2FFF6CD00D403F3 /* CoreText.framework */; };
+		421612451EC0C1E900EC1F5C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2771362F10602FE3E41A8DFE /* CoreTelephony.framework */; };
+		421612461EC0C1E900EC1F5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15120AFE222179147AE1FF5D /* SystemConfiguration.framework */; };
+		421612471EC0C1E900EC1F5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13224967A63BCC991997E /* QuartzCore.framework */; };
+		421612481EC0C1E900EC1F5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481DF3AD2D8EF817156EFF2 /* AVFoundation.framework */; };
+		421612491EC0C1E900EC1F5C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869E2205C204F2CE61EA10C9 /* CoreMedia.framework */; };
+		4216124A1EC0C1E900EC1F5C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
 		42BEDEED1EBDCBD600180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDEEF1EBDCBD600180F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEE1EBDCBD600180F97 /* ViewController.swift */; };
 		42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
@@ -69,7 +81,6 @@
 		8D9D8532465689BD3B6F1433 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2771362F10602FE3E41A8DFE /* CoreTelephony.framework */; };
 		95A9C31D1BF61B545B140852 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481DF3AD2D8EF817156EFF2 /* AVFoundation.framework */; };
 		9E1E56ED9EC4C723A2129904 /* Pods_RomanNumberCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */; };
-		AC0918648EDB242762D48523 /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
 		AE208C76C43382273712C7E2 /* Pods_RomanNumberCalculatorDebugUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5466F790C5361E87A8595FDA /* Pods_RomanNumberCalculatorDebugUITests.framework */; };
 		D71F164CBCD7C44A9FF15CE3 /* Pods_RomanNumberCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CB1FAACBA5EA2394152251 /* Pods_RomanNumberCalculator.framework */; };
 		E483D422D65DBBDB5B8C6E7E /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */; };
@@ -147,6 +158,7 @@
 		42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42C40CDE1EC0B5560060357E /* Pods_RomanNumberCalculator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_RomanNumberCalculator.framework; path = "Pods/../build/Debug-iphoneos/Pods_RomanNumberCalculator.framework"; sourceTree = "<group>"; };
 		476062AF95622ABC2CB9BEB8 /* Pods-RomanNumberCalculatorDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumberCalculatorDebug.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumberCalculatorDebug/Pods-RomanNumberCalculatorDebug.release.xcconfig"; sourceTree = "<group>"; };
 		5466F790C5361E87A8595FDA /* Pods_RomanNumberCalculatorDebugUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorDebugUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,7 +201,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0918648EDB242762D48523 /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
+				421612481EC0C1E900EC1F5C /* AVFoundation.framework in Frameworks */,
+				421612441EC0C1E900EC1F5C /* CoreText.framework in Frameworks */,
+				421612431EC0C1E900EC1F5C /* AssetsLibrary.framework in Frameworks */,
+				421612491EC0C1E900EC1F5C /* CoreMedia.framework in Frameworks */,
+				421612471EC0C1E900EC1F5C /* QuartzCore.framework in Frameworks */,
+				421612451EC0C1E900EC1F5C /* CoreTelephony.framework in Frameworks */,
+				4216123F1EC0C1D700EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
+				421612461EC0C1E900EC1F5C /* SystemConfiguration.framework in Frameworks */,
+				421612421EC0C1E900EC1F5C /* BuddyBuildSDK.framework in Frameworks */,
+				4216124A1EC0C1E900EC1F5C /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE208C76C43382273712C7E2 /* Pods_RomanNumberCalculatorDebugUITests.framework in Frameworks */,
+				421612411EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6E61F71C2C83E001F4B8C8 /* Pods_RomanNumberCalculatorDebugTests.framework in Frameworks */,
+				421612401EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +364,7 @@
 		44E4FF5D4A1FFCB24262C025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42C40CDE1EC0B5560060357E /* Pods_RomanNumberCalculator.framework */,
 				18CB1FAACBA5EA2394152251 /* Pods_RomanNumberCalculator.framework */,
 				78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */,
 				2C9C14570D45478DDEDD04AD /* Pods_RomanNumberCalculatorDebugTests.framework */,
@@ -759,7 +783,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		ACD4FD2E3C981FD31061E28D /* [CP] Check Pods Manifest.lock */ = {
@@ -774,7 +798,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BB050945E17058A43ED18187 /* [CP] Check Pods Manifest.lock */ = {
@@ -789,7 +813,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C523AD08984CAFEE9311F40C /* [CP] Check Pods Manifest.lock */ = {
@@ -804,7 +828,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D72B3AA77D1277343693927E /* [CP] Check Pods Manifest.lock */ = {
@@ -819,7 +843,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D92781341F229A6DBD76045D /* [CP] Copy Pods Resources */ = {
@@ -879,7 +903,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FA41B9C7BF36215B4121E433 /* [CP] Embed Pods Frameworks */ = {
@@ -1124,12 +1148,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -1143,12 +1169,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -1162,10 +1190,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1176,10 +1212,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

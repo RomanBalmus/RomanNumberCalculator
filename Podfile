@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.3'
 # play on master an check 1
 target 'RomanNumberCalculator' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,19 +8,6 @@ target 'RomanNumberCalculator' do
   # Pods for RomanNumberCalculator
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  target 'RomanNumberCalculatorTests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-  end
-
-  target 'RomanNumberCalculatorUITests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-  end
 
 end
 
@@ -31,18 +18,6 @@ target 'RomanNumberCalculatorDebug' do
   # Pods for RomanNumberCalculatorDebug
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  target 'RomanNumberCalculatorDebugTests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-  end
 
-  target 'RomanNumberCalculatorDebugUITests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-  end
 
 end
