@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
-               BuildableName = "RomanNumberCalculator.app"
-               BlueprintName = "RomanNumberCalculator"
+               BlueprintIdentifier = "4216124C1EC0C9F100EC1F5C"
+               BuildableName = "RomanNumberCalculator copy.app"
+               BlueprintName = "RomanNumberCalculator copy"
                ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
-            BuildableName = "RomanNumberCalculator.app"
-            BlueprintName = "RomanNumberCalculator"
+            BlueprintIdentifier = "4216124C1EC0C9F100EC1F5C"
+            BuildableName = "RomanNumberCalculator copy.app"
+            BlueprintName = "RomanNumberCalculator copy"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
-            BuildableName = "RomanNumberCalculator.app"
-            BlueprintName = "RomanNumberCalculator"
+            BlueprintIdentifier = "4216124C1EC0C9F100EC1F5C"
+            BuildableName = "RomanNumberCalculator copy.app"
+            BlueprintName = "RomanNumberCalculator copy"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42BEDEE81EBDCBD600180F97"
-            BuildableName = "RomanNumberCalculator.app"
-            BlueprintName = "RomanNumberCalculator"
+            BlueprintIdentifier = "4216124C1EC0C9F100EC1F5C"
+            BuildableName = "RomanNumberCalculator copy.app"
+            BlueprintName = "RomanNumberCalculator copy"
             ReferencedContainer = "container:RomanNumberCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
