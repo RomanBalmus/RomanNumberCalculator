@@ -11,13 +11,3 @@ target 'RomanNumberCalculator' do
 
 end
 
-target 'RomanNumberCalculatorDebug' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for RomanNumberCalculatorDebug
-  pod 'Firebase/Core'
-  pod 'Firebase/Database'
-
-
-end

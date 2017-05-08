@@ -8,80 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		2BBAACEDA27D84EE9A3A856E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
-		4216123F1EC0C1D700EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
-		421612401EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
-		421612411EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E9EC26F0ECF9EC3285E5 /* Pods_RomanNumberCalculatorDebug.framework */; };
-		421612421EC0C1E900EC1F5C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */; };
-		421612431EC0C1E900EC1F5C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA18FC06439D44FDCA92CAD /* AssetsLibrary.framework */; };
-		421612441EC0C1E900EC1F5C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675301E1A2FFF6CD00D403F3 /* CoreText.framework */; };
-		421612451EC0C1E900EC1F5C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2771362F10602FE3E41A8DFE /* CoreTelephony.framework */; };
-		421612461EC0C1E900EC1F5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15120AFE222179147AE1FF5D /* SystemConfiguration.framework */; };
-		421612471EC0C1E900EC1F5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13224967A63BCC991997E /* QuartzCore.framework */; };
-		421612481EC0C1E900EC1F5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481DF3AD2D8EF817156EFF2 /* AVFoundation.framework */; };
-		421612491EC0C1E900EC1F5C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869E2205C204F2CE61EA10C9 /* CoreMedia.framework */; };
-		4216124A1EC0C1E900EC1F5C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
 		4216124B1EC0C57D00EC1F5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */; };
 		42BEDEED1EBDCBD600180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDEEF1EBDCBD600180F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEE1EBDCBD600180F97 /* ViewController.swift */; };
 		42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
 		42BEDEF41EBDCBD600180F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
-		42BEDF001EBDCBEF00180F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEE1EBDCBD600180F97 /* ViewController.swift */; };
-		42BEDF011EBDCBEF00180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
-		42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
-		42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
 		42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */; };
 		42BEDF451EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF441EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift */; };
 		42BEDF531EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF521EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift */; };
-		42BEDF611EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF601EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests.swift */; };
-		42BEDF6F1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF6E1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.swift */; };
 		42BEDF7B1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
-		42BEDF7C1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
 		42BEDF7D1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
 		42BEDF7E1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
-		42BEDF7F1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
-		42BEDF801EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
 		42BEDF811EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
-		42BEDF821EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
 		42BEDF831EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
 		42BEDF841EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
-		42BEDF851EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
-		42BEDF861EBDCDF900180F97 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF781EBDCDF900180F97 /* FireAuth.swift */; };
 		42BEDF871EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
-		42BEDF881EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
 		42BEDF891EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
 		42BEDF8A1EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
-		42BEDF8B1EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
-		42BEDF8C1EBDCDF900180F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF791EBDCDF900180F97 /* Constants.swift */; };
 		42BEDF8D1EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
-		42BEDF8E1EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
 		42BEDF8F1EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
 		42BEDF901EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
-		42BEDF911EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
-		42BEDF921EBDCDF900180F97 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF7A1EBDCDF900180F97 /* FireDB.swift */; };
 		42BEDF941EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
-		42BEDF951EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
 		42BEDF961EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
 		42BEDF971EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
-		42BEDF981EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
-		42BEDF991EBDCE0400180F97 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */; };
 		42BEDF9B1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
-		42BEDF9C1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
 		42BEDF9D1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
 		42BEDF9E1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
-		42BEDF9F1EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
-		42BEDFA01EBDCE0E00180F97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF9A1EBDCE0E00180F97 /* LoginViewController.swift */; };
 		42BEDFAA1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */; };
-		42BEDFAB1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */; };
 		4844B0AC4B0097E4A1DD1A44 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675301E1A2FFF6CD00D403F3 /* CoreText.framework */; };
 		5798ECFC6F982BFCD26C89C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15120AFE222179147AE1FF5D /* SystemConfiguration.framework */; };
 		5C5F413DC13702E567299F34 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA18FC06439D44FDCA92CAD /* AssetsLibrary.framework */; };
 		6413786378334819BEB6B210 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13224967A63BCC991997E /* QuartzCore.framework */; };
-		7C6E61F71C2C83E001F4B8C8 /* Pods_RomanNumberCalculatorDebugTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C14570D45478DDEDD04AD /* Pods_RomanNumberCalculatorDebugTests.framework */; };
 		800C9C6768E21BCD90DB8A97 /* Pods_RomanNumberCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164902DD86CEA684E03D64B /* Pods_RomanNumberCalculatorUITests.framework */; };
 		8D9D8532465689BD3B6F1433 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2771362F10602FE3E41A8DFE /* CoreTelephony.framework */; };
 		95A9C31D1BF61B545B140852 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481DF3AD2D8EF817156EFF2 /* AVFoundation.framework */; };
 		9E1E56ED9EC4C723A2129904 /* Pods_RomanNumberCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDE8DC7CA79F0B80EDAB6B /* Pods_RomanNumberCalculatorTests.framework */; };
-		AE208C76C43382273712C7E2 /* Pods_RomanNumberCalculatorDebugUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5466F790C5361E87A8595FDA /* Pods_RomanNumberCalculatorDebugUITests.framework */; };
 		D71F164CBCD7C44A9FF15CE3 /* Pods_RomanNumberCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CB1FAACBA5EA2394152251 /* Pods_RomanNumberCalculator.framework */; };
 		E483D422D65DBBDB5B8C6E7E /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C95CDED352D032CE8778D /* BuddyBuildSDK.framework */; };
 		E88CF85D7D0FF1D453ABE11D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869E2205C204F2CE61EA10C9 /* CoreMedia.framework */; };
@@ -102,20 +63,6 @@
 			remoteGlobalIDString = 42BEDEE81EBDCBD600180F97;
 			remoteInfo = RomanNumberCalculator;
 		};
-		42BEDF631EBDCDB400180F97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42BEDEE11EBDCBD600180F97 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42BEDEFE1EBDCBEF00180F97;
-			remoteInfo = RomanNumberCalculatorDebug;
-		};
-		42BEDF711EBDCDC300180F97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42BEDEE11EBDCBD600180F97 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42BEDEFE1EBDCBEF00180F97;
-			remoteInfo = RomanNumberCalculatorDebug;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -135,7 +82,6 @@
 		42BEDEF11EBDCBD600180F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42BEDEF31EBDCBD600180F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BEDEF81EBDCBD700180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42BEDF0A1EBDCBEF00180F97 /* RomanNumberCalculatorDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumberCalculatorDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDF0B1EBDCBEF00180F97 /* RomanNumberCalculatorDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumberCalculatorDebug-Info.plist"; path = "/Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculatorDebug-Info.plist"; sourceTree = "<absolute>"; };
 		42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Develop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -145,12 +91,6 @@
 		42BEDF501EBDCDA600180F97 /* RomanNumberCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumberCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDF521EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumberCalculatorUITests.swift; sourceTree = "<group>"; };
 		42BEDF541EBDCDA600180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42BEDF5E1EBDCDB300180F97 /* RomanNumberCalculatorDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumberCalculatorDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BEDF601EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumberCalculatorDebugUITests.swift; sourceTree = "<group>"; };
-		42BEDF621EBDCDB400180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42BEDF6C1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumberCalculatorDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BEDF6E1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumberCalculatorDebugTests.swift; sourceTree = "<group>"; };
-		42BEDF701EBDCDC300180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42BEDF771EBDCDF900180F97 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		42BEDF781EBDCDF900180F97 /* FireAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireAuth.swift; sourceTree = "<group>"; };
 		42BEDF791EBDCDF900180F97 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -197,23 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDF021EBDCBEF00180F97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				421612481EC0C1E900EC1F5C /* AVFoundation.framework in Frameworks */,
-				421612441EC0C1E900EC1F5C /* CoreText.framework in Frameworks */,
-				421612431EC0C1E900EC1F5C /* AssetsLibrary.framework in Frameworks */,
-				421612491EC0C1E900EC1F5C /* CoreMedia.framework in Frameworks */,
-				421612471EC0C1E900EC1F5C /* QuartzCore.framework in Frameworks */,
-				421612451EC0C1E900EC1F5C /* CoreTelephony.framework in Frameworks */,
-				4216123F1EC0C1D700EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
-				421612461EC0C1E900EC1F5C /* SystemConfiguration.framework in Frameworks */,
-				421612421EC0C1E900EC1F5C /* BuddyBuildSDK.framework in Frameworks */,
-				4216124A1EC0C1E900EC1F5C /* CoreVideo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42BEDF3F1EBDCD9C00180F97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,24 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDF5B1EBDCDB300180F97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE208C76C43382273712C7E2 /* Pods_RomanNumberCalculatorDebugUITests.framework in Frameworks */,
-				421612411EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42BEDF691EBDCDC300180F97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C6E61F71C2C83E001F4B8C8 /* Pods_RomanNumberCalculatorDebugTests.framework in Frameworks */,
-				421612401EC0C1DE00EC1F5C /* Pods_RomanNumberCalculatorDebug.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -257,8 +162,6 @@
 				42BEDEEB1EBDCBD600180F97 /* RomanNumberCalculator */,
 				42BEDF431EBDCD9C00180F97 /* RomanNumberCalculatorTests */,
 				42BEDF511EBDCDA600180F97 /* RomanNumberCalculatorUITests */,
-				42BEDF5F1EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests */,
-				42BEDF6D1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests */,
 				42BEDEEA1EBDCBD600180F97 /* Products */,
 				42BEDF0B1EBDCBEF00180F97 /* RomanNumberCalculatorDebug-Info.plist */,
 				ADABB98E5E3229F66CE78F2D /* Pods */,
@@ -271,11 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				42BEDEE91EBDCBD600180F97 /* RomanNumberCalculator.app */,
-				42BEDF0A1EBDCBEF00180F97 /* RomanNumberCalculatorDebug.app */,
 				42BEDF421EBDCD9C00180F97 /* RomanNumberCalculatorTests.xctest */,
 				42BEDF501EBDCDA600180F97 /* RomanNumberCalculatorUITests.xctest */,
-				42BEDF5E1EBDCDB300180F97 /* RomanNumberCalculatorDebugUITests.xctest */,
-				42BEDF6C1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,24 +230,6 @@
 				42BEDF541EBDCDA600180F97 /* Info.plist */,
 			);
 			path = RomanNumberCalculatorUITests;
-			sourceTree = "<group>";
-		};
-		42BEDF5F1EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests */ = {
-			isa = PBXGroup;
-			children = (
-				42BEDF601EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests.swift */,
-				42BEDF621EBDCDB400180F97 /* Info.plist */,
-			);
-			path = RomanNumberCalculatorDebugUITests;
-			sourceTree = "<group>";
-		};
-		42BEDF6D1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests */ = {
-			isa = PBXGroup;
-			children = (
-				42BEDF6E1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.swift */,
-				42BEDF701EBDCDC300180F97 /* Info.plist */,
-			);
-			path = RomanNumberCalculatorDebugTests;
 			sourceTree = "<group>";
 		};
 		42BEDF761EBDCDE500180F97 /* SharredInstance */ = {
@@ -426,26 +308,6 @@
 			productReference = 42BEDEE91EBDCBD600180F97 /* RomanNumberCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42BEDEFE1EBDCBEF00180F97 /* RomanNumberCalculatorDebug */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42BEDF071EBDCBEF00180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebug" */;
-			buildPhases = (
-				9D4540CDA7283BE3F092B2F3 /* [CP] Check Pods Manifest.lock */,
-				42BEDEFF1EBDCBEF00180F97 /* Sources */,
-				42BEDF021EBDCBEF00180F97 /* Frameworks */,
-				42BEDF031EBDCBEF00180F97 /* Resources */,
-				EBBEF379224FE38159DF9B81 /* [CP] Embed Pods Frameworks */,
-				8AB3DE454CBF870B92639053 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RomanNumberCalculatorDebug;
-			productName = RomanNumberCalculator;
-			productReference = 42BEDF0A1EBDCBEF00180F97 /* RomanNumberCalculatorDebug.app */;
-			productType = "com.apple.product-type.application";
-		};
 		42BEDF411EBDCD9C00180F97 /* RomanNumberCalculatorTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42BEDF491EBDCD9C00180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorTests" */;
@@ -488,48 +350,6 @@
 			productReference = 42BEDF501EBDCDA600180F97 /* RomanNumberCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		42BEDF5D1EBDCDB300180F97 /* RomanNumberCalculatorDebugUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42BEDF651EBDCDB400180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugUITests" */;
-			buildPhases = (
-				C523AD08984CAFEE9311F40C /* [CP] Check Pods Manifest.lock */,
-				42BEDF5A1EBDCDB300180F97 /* Sources */,
-				42BEDF5B1EBDCDB300180F97 /* Frameworks */,
-				42BEDF5C1EBDCDB300180F97 /* Resources */,
-				908C4BE2482B5A98B7115434 /* [CP] Embed Pods Frameworks */,
-				1DAED17DC8E7A7E13AA5035D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42BEDF641EBDCDB400180F97 /* PBXTargetDependency */,
-			);
-			name = RomanNumberCalculatorDebugUITests;
-			productName = RomanNumberCalculatorDebugUITests;
-			productReference = 42BEDF5E1EBDCDB300180F97 /* RomanNumberCalculatorDebugUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		42BEDF6B1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42BEDF731EBDCDC300180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugTests" */;
-			buildPhases = (
-				BB050945E17058A43ED18187 /* [CP] Check Pods Manifest.lock */,
-				42BEDF681EBDCDC300180F97 /* Sources */,
-				42BEDF691EBDCDC300180F97 /* Frameworks */,
-				42BEDF6A1EBDCDC300180F97 /* Resources */,
-				06709871067C5C60A9A790E6 /* [CP] Embed Pods Frameworks */,
-				EEB30D48E094CF125D091F67 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42BEDF721EBDCDC300180F97 /* PBXTargetDependency */,
-			);
-			name = RomanNumberCalculatorDebugTests;
-			productName = RomanNumberCalculatorDebugTests;
-			productReference = 42BEDF6C1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -545,9 +365,6 @@
 						DevelopmentTeam = ZAD32BLY8Z;
 						ProvisioningStyle = Automatic;
 					};
-					42BEDEFE1EBDCBEF00180F97 = {
-						DevelopmentTeam = ZAD32BLY8Z;
-					};
 					42BEDF411EBDCD9C00180F97 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZAD32BLY8Z;
@@ -559,18 +376,6 @@
 						DevelopmentTeam = ZAD32BLY8Z;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 42BEDEE81EBDCBD600180F97;
-					};
-					42BEDF5D1EBDCDB300180F97 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = ZAD32BLY8Z;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 42BEDEFE1EBDCBEF00180F97;
-					};
-					42BEDF6B1EBDCDC300180F97 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = ZAD32BLY8Z;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 42BEDEFE1EBDCBEF00180F97;
 					};
 				};
 			};
@@ -588,11 +393,8 @@
 			projectRoot = "";
 			targets = (
 				42BEDEE81EBDCBD600180F97 /* RomanNumberCalculator */,
-				42BEDEFE1EBDCBEF00180F97 /* RomanNumberCalculatorDebug */,
 				42BEDF411EBDCD9C00180F97 /* RomanNumberCalculatorTests */,
 				42BEDF4F1EBDCDA600180F97 /* RomanNumberCalculatorUITests */,
-				42BEDF5D1EBDCDB300180F97 /* RomanNumberCalculatorDebugUITests */,
-				42BEDF6B1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests */,
 			);
 		};
 /* End PBXProject section */
@@ -610,16 +412,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDF031EBDCBEF00180F97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42BEDFAB1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
-				42BEDF051EBDCBEF00180F97 /* Assets.xcassets in Resources */,
-				42BEDF061EBDCBEF00180F97 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42BEDF401EBDCD9C00180F97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,53 +426,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDF5C1EBDCDB300180F97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42BEDF6A1EBDCDC300180F97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06709871067C5C60A9A790E6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebugTests/Pods-RomanNumberCalculatorDebugTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1DAED17DC8E7A7E13AA5035D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebugUITests/Pods-RomanNumberCalculatorDebugUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3D9F2F8B04698DE1F115C4C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,36 +474,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorUITests/Pods-RomanNumberCalculatorUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8AB3DE454CBF870B92639053 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebug/Pods-RomanNumberCalculatorDebug-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		908C4BE2482B5A98B7115434 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebugUITests/Pods-RomanNumberCalculatorDebugUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9289514224629A6DDD038D70 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -771,52 +489,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculator/Pods-RomanNumberCalculator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D4540CDA7283BE3F092B2F3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		ACD4FD2E3C981FD31061E28D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BB050945E17058A43ED18187 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C523AD08984CAFEE9311F40C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -859,36 +532,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorTests/Pods-RomanNumberCalculatorTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBBEF379224FE38159DF9B81 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebug/Pods-RomanNumberCalculatorDebug-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEB30D48E094CF125D091F67 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumberCalculatorDebugTests/Pods-RomanNumberCalculatorDebugTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F08EEAA6DD8CC071013F01FE /* [CP] Check Pods Manifest.lock */ = {
@@ -939,21 +582,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDEFF1EBDCBEF00180F97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42BEDF9C1EBDCE0E00180F97 /* LoginViewController.swift in Sources */,
-				42BEDF001EBDCBEF00180F97 /* ViewController.swift in Sources */,
-				42BEDF8E1EBDCDF900180F97 /* FireDB.swift in Sources */,
-				42BEDF7C1EBDCDF900180F97 /* AppConfig.swift in Sources */,
-				42BEDF821EBDCDF900180F97 /* FireAuth.swift in Sources */,
-				42BEDF011EBDCBEF00180F97 /* AppDelegate.swift in Sources */,
-				42BEDF951EBDCE0400180F97 /* RomanNumeral.swift in Sources */,
-				42BEDF881EBDCDF900180F97 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42BEDF3E1EBDCD9C00180F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -982,34 +610,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42BEDF5A1EBDCDB300180F97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42BEDF9F1EBDCE0E00180F97 /* LoginViewController.swift in Sources */,
-				42BEDF911EBDCDF900180F97 /* FireDB.swift in Sources */,
-				42BEDF611EBDCDB400180F97 /* RomanNumberCalculatorDebugUITests.swift in Sources */,
-				42BEDF7F1EBDCDF900180F97 /* AppConfig.swift in Sources */,
-				42BEDF851EBDCDF900180F97 /* FireAuth.swift in Sources */,
-				42BEDF981EBDCE0400180F97 /* RomanNumeral.swift in Sources */,
-				42BEDF8B1EBDCDF900180F97 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42BEDF681EBDCDC300180F97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42BEDFA01EBDCE0E00180F97 /* LoginViewController.swift in Sources */,
-				42BEDF921EBDCDF900180F97 /* FireDB.swift in Sources */,
-				42BEDF6F1EBDCDC300180F97 /* RomanNumberCalculatorDebugTests.swift in Sources */,
-				42BEDF801EBDCDF900180F97 /* AppConfig.swift in Sources */,
-				42BEDF861EBDCDF900180F97 /* FireAuth.swift in Sources */,
-				42BEDF991EBDCE0400180F97 /* RomanNumeral.swift in Sources */,
-				42BEDF8C1EBDCDF900180F97 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1022,16 +622,6 @@
 			isa = PBXTargetDependency;
 			target = 42BEDEE81EBDCBD600180F97 /* RomanNumberCalculator */;
 			targetProxy = 42BEDF551EBDCDA600180F97 /* PBXContainerItemProxy */;
-		};
-		42BEDF641EBDCDB400180F97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42BEDEFE1EBDCBEF00180F97 /* RomanNumberCalculatorDebug */;
-			targetProxy = 42BEDF631EBDCDB400180F97 /* PBXContainerItemProxy */;
-		};
-		42BEDF721EBDCDC300180F97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42BEDEFE1EBDCBEF00180F97 /* RomanNumberCalculatorDebug */;
-			targetProxy = 42BEDF711EBDCDC300180F97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1090,7 +680,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1146,6 +736,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B329EE5F5955FCC08D35452E /* Pods-RomanNumberCalculator.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
 				ENABLE_BITCODE = YES;
@@ -1155,7 +746,7 @@
 				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -1167,6 +758,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FC3C53AABF0FF03A71A63BF /* Pods-RomanNumberCalculator.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAD32BLY8Z;
 				ENABLE_BITCODE = YES;
@@ -1176,51 +768,7 @@
 				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		42BEDF081EBDCBEF00180F97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9313C3E0176A6FD9F800200F /* Pods-RomanNumberCalculatorDebug.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		42BEDF091EBDCBEF00180F97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 476062AF95622ABC2CB9BEB8 /* Pods-RomanNumberCalculatorDebug.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -1286,64 +834,6 @@
 			};
 			name = Release;
 		};
-		42BEDF661EBDCDB400180F97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 980CE79534E0FFB9A81D373A /* Pods-RomanNumberCalculatorDebugUITests.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				INFOPLIST_FILE = RomanNumberCalculatorDebugUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculatorDebugUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RomanNumberCalculatorDebug;
-			};
-			name = Debug;
-		};
-		42BEDF671EBDCDB400180F97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFA62617E5DA9CFCDE36FD77 /* Pods-RomanNumberCalculatorDebugUITests.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				INFOPLIST_FILE = RomanNumberCalculatorDebugUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculatorDebugUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RomanNumberCalculatorDebug;
-			};
-			name = Release;
-		};
-		42BEDF741EBDCDC300180F97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145475D766FE87E60CC1BD5E /* Pods-RomanNumberCalculatorDebugTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				INFOPLIST_FILE = RomanNumberCalculatorDebugTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculatorDebugTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumberCalculatorDebug.app/RomanNumberCalculatorDebug";
-			};
-			name = Debug;
-		};
-		42BEDF751EBDCDC300180F97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168C6F5C49F06B2CDF6F5BEA /* Pods-RomanNumberCalculatorDebugTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = ZAD32BLY8Z;
-				INFOPLIST_FILE = RomanNumberCalculatorDebugTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculatorDebugTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumberCalculatorDebug.app/RomanNumberCalculatorDebug";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1365,15 +855,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42BEDF071EBDCBEF00180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebug" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42BEDF081EBDCBEF00180F97 /* Debug */,
-				42BEDF091EBDCBEF00180F97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		42BEDF491EBDCD9C00180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1388,24 +869,6 @@
 			buildConfigurations = (
 				42BEDF581EBDCDA600180F97 /* Debug */,
 				42BEDF591EBDCDA600180F97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42BEDF651EBDCDB400180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42BEDF661EBDCDB400180F97 /* Debug */,
-				42BEDF671EBDCDB400180F97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42BEDF731EBDCDC300180F97 /* Build configuration list for PBXNativeTarget "RomanNumberCalculatorDebugTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42BEDF741EBDCDC300180F97 /* Debug */,
-				42BEDF751EBDCDC300180F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
