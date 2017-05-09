@@ -19,6 +19,9 @@ class LoginViewController: UIViewController, FireDBDelegate {
         self.view.isHidden=false
         fireDb = FireDB.sharedInstance
         fireDb.delegate = self
+        
+        
+        receivedDataLabel.text = SERVER_URL
     }
     
     @IBAction func facebookSignInBtnTapped(_ sender: Any) {

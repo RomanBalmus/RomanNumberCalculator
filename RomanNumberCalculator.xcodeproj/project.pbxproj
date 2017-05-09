@@ -101,6 +101,7 @@
 		3164902DD86CEA684E03D64B /* Pods_RomanNumberCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumberCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4216126D1EC0C9F100EC1F5C /* RomanNumberCalculator copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RomanNumberCalculator copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4216126E1EC0C9F100EC1F5C /* RomanNumberCalculator copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumberCalculator copy-Info.plist"; path = "/Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator copy-Info.plist"; sourceTree = "<absolute>"; };
+		4217FDB01EC1A54C00D321E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		42BEDEE91EBDCBD600180F97 /* RomanNumberCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumberCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BEDEEE1EBDCBD600180F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -238,6 +239,7 @@
 				42BEDEF31EBDCBD600180F97 /* Assets.xcassets */,
 				42BEDEF81EBDCBD700180F97 /* Info.plist */,
 				42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */,
+				4217FDB01EC1A54C00D321E5 /* PrefixHeader.pch */,
 			);
 			path = RomanNumberCalculator;
 			sourceTree = "<group>";
@@ -789,9 +791,16 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = /Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=1",
+				);
 				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -811,9 +820,16 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = /Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=1",
+				);
 				INFOPLIST_FILE = "RomanNumberCalculatorDebug-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -928,9 +944,16 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = /Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -950,9 +973,16 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = /Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+				);
 				INFOPLIST_FILE = RomanNumberCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumberCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
