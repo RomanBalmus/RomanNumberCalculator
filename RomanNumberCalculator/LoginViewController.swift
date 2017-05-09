@@ -20,7 +20,6 @@ class LoginViewController: UIViewController, FireDBDelegate {
         fireDb = FireDB.sharedInstance
         fireDb.delegate = self
         
-        
         receivedDataLabel.text = SERVER_URL
     }
     

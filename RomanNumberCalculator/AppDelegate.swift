@@ -17,8 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         BuddyBuildSDK.setup()
-        FIRApp.configure()
+        
+        
+
+
+         let OPTION_PATH = Bundle.main.path(forResource: ENVI_TYPE+"-GoogleService-Info", ofType: "plist")
+
+        print("path: \(String(describing: OPTION_PATH))")
+        
+        let options = FIROptions(contentsOfFile: OPTION_PATH)
+        FIRApp.configure(with: options!)
         // Override point for customization after application launch.
+        
+        
+       
         return true
     }
 

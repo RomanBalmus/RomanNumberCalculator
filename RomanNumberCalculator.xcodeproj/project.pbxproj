@@ -27,15 +27,17 @@
 		421612601EC0C9F100EC1F5C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869E2205C204F2CE61EA10C9 /* CoreMedia.framework */; };
 		421612611EC0C9F100EC1F5C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D685D803E75BC7E3B181C7 /* CoreVideo.framework */; };
 		421612641EC0C9F100EC1F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDFA91EBDD80900180F97 /* LaunchScreen.storyboard */; };
-		421612651EC0C9F100EC1F5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */; };
 		421612661EC0C9F100EC1F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
 		421612671EC0C9F100EC1F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
 		4216126F1EC0CAEF00EC1F5C /* RomanNumberCalculatorDebug-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF0B1EBDCBEF00180F97 /* RomanNumberCalculatorDebug-Info.plist */; };
+		4217FDC21EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4217FDC11EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist */; };
+		4217FDC41EC1C0F500D321E5 /* Release-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4217FDC31EC1C0F500D321E5 /* Release-GoogleService-Info.plist */; };
+		4217FDC51EC1C15200D321E5 /* Develop-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4217FDC11EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist */; };
+		4217FDC61EC1C15500D321E5 /* Release-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4217FDC31EC1C0F500D321E5 /* Release-GoogleService-Info.plist */; };
 		42BEDEED1EBDCBD600180F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */; };
 		42BEDEEF1EBDCBD600180F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDEEE1EBDCBD600180F97 /* ViewController.swift */; };
 		42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF01EBDCBD600180F97 /* Main.storyboard */; };
 		42BEDEF41EBDCBD600180F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDEF31EBDCBD600180F97 /* Assets.xcassets */; };
-		42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */; };
 		42BEDF451EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF441EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift */; };
 		42BEDF531EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF521EBDCDA600180F97 /* RomanNumberCalculatorUITests.swift */; };
 		42BEDF7B1EBDCDF900180F97 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEDF771EBDCDF900180F97 /* AppConfig.swift */; };
@@ -102,6 +104,8 @@
 		4216126D1EC0C9F100EC1F5C /* RomanNumberCalculator copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RomanNumberCalculator copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4216126E1EC0C9F100EC1F5C /* RomanNumberCalculator copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumberCalculator copy-Info.plist"; path = "/Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculator copy-Info.plist"; sourceTree = "<absolute>"; };
 		4217FDB01EC1A54C00D321E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4217FDC11EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Develop-GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4217FDC31EC1C0F500D321E5 /* Release-GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Release-GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BEDEE91EBDCBD600180F97 /* RomanNumberCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumberCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BEDEEE1EBDCBD600180F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +113,6 @@
 		42BEDEF31EBDCBD600180F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BEDEF81EBDCBD700180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42BEDF0B1EBDCBEF00180F97 /* RomanNumberCalculatorDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumberCalculatorDebug-Info.plist"; path = "/Users/Programmer/Documents/iOSProjects/RomanNumberCalculator/RomanNumberCalculatorDebug-Info.plist"; sourceTree = "<absolute>"; };
-		42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Develop/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BEDF421EBDCD9C00180F97 /* RomanNumberCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumberCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BEDF441EBDCD9C00180F97 /* RomanNumberCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumberCalculatorTests.swift; sourceTree = "<group>"; };
 		42BEDF461EBDCD9C00180F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -228,9 +230,9 @@
 		42BEDEEB1EBDCBD600180F97 /* RomanNumberCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				4217FDC31EC1C0F500D321E5 /* Release-GoogleService-Info.plist */,
+				4217FDC11EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist */,
 				42BEDF761EBDCDE500180F97 /* SharredInstance */,
-				42BEDF351EBDCC9200180F97 /* Rel */,
-				42BEDF321EBDCC7E00180F97 /* Dev */,
 				42BEDEEC1EBDCBD600180F97 /* AppDelegate.swift */,
 				42BEDEEE1EBDCBD600180F97 /* ViewController.swift */,
 				42BEDF931EBDCE0400180F97 /* RomanNumeral.swift */,
@@ -242,22 +244,6 @@
 				4217FDB01EC1A54C00D321E5 /* PrefixHeader.pch */,
 			);
 			path = RomanNumberCalculator;
-			sourceTree = "<group>";
-		};
-		42BEDF321EBDCC7E00180F97 /* Dev */ = {
-			isa = PBXGroup;
-			children = (
-				42BEDF3A1EBDCD2D00180F97 /* GoogleService-Info.plist */,
-			);
-			name = Dev;
-			sourceTree = "<group>";
-		};
-		42BEDF351EBDCC9200180F97 /* Rel */ = {
-			isa = PBXGroup;
-			children = (
-				42BEDF3C1EBDCD3700180F97 /* GoogleService-Info.plist */,
-			);
-			name = Rel;
 			sourceTree = "<group>";
 		};
 		42BEDF431EBDCD9C00180F97 /* RomanNumberCalculatorTests */ = {
@@ -474,8 +460,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4217FDC61EC1C15500D321E5 /* Release-GoogleService-Info.plist in Resources */,
+				4217FDC21EC1C0EB00D321E5 /* Develop-GoogleService-Info.plist in Resources */,
 				421612641EC0C9F100EC1F5C /* LaunchScreen.storyboard in Resources */,
-				421612651EC0C9F100EC1F5C /* GoogleService-Info.plist in Resources */,
 				421612661EC0C9F100EC1F5C /* Assets.xcassets in Resources */,
 				4216126F1EC0CAEF00EC1F5C /* RomanNumberCalculatorDebug-Info.plist in Resources */,
 				421612671EC0C9F100EC1F5C /* Main.storyboard in Resources */,
@@ -486,8 +473,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BEDF3D1EBDCD3700180F97 /* GoogleService-Info.plist in Resources */,
+				4217FDC41EC1C0F500D321E5 /* Release-GoogleService-Info.plist in Resources */,
 				42BEDFAA1EBDD80900180F97 /* LaunchScreen.storyboard in Resources */,
+				4217FDC51EC1C15200D321E5 /* Develop-GoogleService-Info.plist in Resources */,
 				42BEDEF41EBDCBD600180F97 /* Assets.xcassets in Resources */,
 				42CDE4261EC0CCE600FCC07F /* Info.plist in Resources */,
 				42BEDEF21EBDCBD600180F97 /* Main.storyboard in Resources */,

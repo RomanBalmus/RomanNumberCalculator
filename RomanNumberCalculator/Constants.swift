@@ -5,11 +5,16 @@
 //  Created by iOS on 05/05/17.
 //  Copyright © 2017 buddybuild. All rights reserved.
 //
-
+import UIKit
 import Foundation
 struct Constants
 {
+    
     struct NotificationsKeys {
         static let SignedIn = "onSignInCompleted"
     }
+    
+  
+    
+    
 }
